@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/divide_height_question_item"
+        android:layout_marginLeft="@dimen/question_item_marge_left"
+        android:layout_marginRight="10dp" >
+
+        <TextView
+            android:id="@+id/grade"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:textColor="#0080ff"
+            android:textSize="@dimen/third_level_sp"
+            android:text="高二数学" />
+
+        <TextView
+            android:id="@+id/time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+        	android:layout_marginLeft="@dimen/question_item_marge_left"
+            android:layout_toRightOf="@+id/grade"
+            android:layout_centerVertical="true"
+            android:textColor="#a4a4a4"
+            android:textSize="@dimen/fouth_level_sp"
+            android:text="1分钟前" />
+  
+        <TextView
+            android:id="@+id/score"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:textColor="#f3d64b"
+            android:textSize="@dimen/fouth_level_sp"
+            android:drawableLeft="@drawable/homework_qb2_blue_wealth" 
+            android:layout_alignParentRight="true"        
+            android:text="5000" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/question_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/divide_height_question_item"
+        android:includeFontPadding="false"
+        android:layout_marginLeft="@dimen/question_item_marge_left"
+        android:layout_marginRight="10dp"
+        android:textColor="#000"
+        android:textSize="@dimen/first_level_sp"
+        android:text="一道难题，请解答学巴巴" />
+
+    <ImageView
+        android:id="@+id/question_img"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/divide_height_question_item"
+        android:layout_marginLeft="@dimen/question_item_marge_left"
+        android:layout_marginRight="10dp"
+        android:src="@drawable/auto_answer_guide_tip" />
+
+	<ImageView 
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="#f8f8f8"
+         android:layout_marginBottom="@dimen/divide_height_question_item"
+        
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:baselineAligned="false"
+        android:layout_marginBottom="@dimen/third_level_sp" >
+
+        <LinearLayout
+            android:layout_width="140dp"
+            android:layout_height="fill_parent"
+        	android:layout_marginLeft="@dimen/question_item_marge_left"
+            android:layout_marginRight="10dp"
+            >
+
+            <ImageView
+                android:id="@+id/user_icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center|left"
+                
+                android:src="@drawable/user_default_portrait_38" />
+
+            <TextView
+                android:id="@+id/use_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right|center_vertical"
+                android:gravity="center|left"
+                android:text="最好的我们最好的我们最好的我们最好的我们最好的我们最好的我们最好的我们"
+                android:textColor="#a4a4a4"
+                android:textSize="@dimen/third_level_sp" />
+
+        </LinearLayout>
+  
+            <TextView
+                android:id="@+id/answer_num"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right|center_vertical|center"
+                android:text="0回答"
+                android:layout_marginRight="0dp"
+                android:textColor="#a4a4a4"
+                android:textSize="@dimen/third_level_sp" />
+            
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="right|center_vertical|center_horizontal"
+            android:layout_weight="4"
+            android:divider="@drawable/divider"  
+        	android:showDividers="beginning"        	
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/answer_now"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="5dp"
+                android:drawableLeft="@drawable/homework_queslist_item_bottom_ans_now_pressed"
+                android:text="立刻回答"
+                android:textColor="#0080ff"
+                android:textSize="@dimen/third_level_sp" />
+
+        </LinearLayout>
+        
+    </LinearLayout>
+    <ImageView 
+        android:layout_width="fill_parent"
+        android:layout_height="10dp"
+        android:background="#f0f0f0"
+         android:layout_marginBottom="@dimen/divide_height_question_item"
+        
+        />
+
+</LinearLayout>

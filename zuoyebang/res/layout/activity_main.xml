@@ -1,0 +1,119 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="${relativePackage}.${activityClass}" >
+    <FrameLayout
+        android:id="@+id/pager"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_above="@+id/LinearLayout2"       
+        
+     />
+     	
+   	  <ImageButton
+        android:id="@+id/ask_bg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@+id/LinearLayout2"
+        android:background="@drawable/index_index_ask_bg" />
+     <LinearLayout
+         android:id="@+id/LinearLayout2"
+         android:layout_width="match_parent"
+   		 android:layout_height="wrap_content"
+   		 android:orientation="horizontal"
+   		 android:paddingTop="2dp" 	 
+   		 android:paddingBottom="2dp" 
+   		 android:background="#f0f0f0"    
+   		 android:gravity="center_horizontal"
+   		 android:baselineAligned="false"        	 
+   		 android:layout_alignParentBottom="true">
+
+   	 	<LinearLayout
+   	 	    android:layout_width="wrap_content"
+   	 	    android:layout_height="match_parent"
+   	 	    android:layout_gravity="center_horizontal"
+   	 	    android:layout_weight="1"
+   	 	    android:gravity="bottom|center_vertical|center_horizontal"
+   	 	    android:orientation="vertical" >
+			      <TextView
+			        android:id="@+id/imageButton_answer"
+            		android:layout_width="wrap_content"
+            		android:layout_height="wrap_content"
+            		android:text="回答"
+            		android:clickable="true"
+            		android:drawableTop="@drawable/selector_answer"
+            		android:textSize="@dimen/fouth_level_sp"  />                
+          </LinearLayout>
+			 
+	      <LinearLayout
+                android:layout_width="wrap_content"
+	   	 	    android:layout_height="match_parent"
+	   	 	    android:layout_gravity="center_horizontal"
+	   	 	    android:layout_weight="1"
+	   	 	    android:gravity="bottom|center_vertical|center_horizontal"
+	   	 	    android:orientation="vertical" > 
+	     		 <TextView
+            		android:layout_width="wrap_content"
+            		android:layout_height="wrap_content"
+            		android:text="圈子"
+            		android:drawableTop="@drawable/selector_circle"     		
+            		android:textSize="@dimen/fouth_level_sp"  />                
+        	 </LinearLayout>
+        	  <LinearLayout
+            	android:layout_width="wrap_content"
+            	android:layout_height="wrap_content"
+              	android:gravity="center_horizontal"
+              	android:orientation="vertical"
+              	android:layout_weight="1">      
+			   
+	       		<TextView
+	       		    android:id="@+id/imageButton_ask"      	
+	       		    
+            		android:layout_width="wrap_content"
+            		android:layout_height="wrap_content"
+            		android:text="拍题"
+            		android:clickable="true"
+            		
+            		android:drawableTop="@drawable/selector_ask"     		
+            		
+            		android:textSize="@dimen/fouth_level_sp" />   
+            </LinearLayout>	
+            	 
+        	 <LinearLayout
+            	android:layout_width="wrap_content"
+	   	 	    android:layout_height="match_parent"
+	   	 	    android:layout_gravity="center_horizontal"
+	   	 	    android:layout_weight="1"
+	   	 	    android:gravity="bottom|center_vertical|center_horizontal"
+	   	 	    android:orientation="vertical" > 
+
+		        <TextView
+            		android:layout_width="wrap_content"
+            		android:layout_height="wrap_content"
+            		android:text="作业"
+            		android:drawableTop="@drawable/selector_homework"     		
+            		
+            		android:textSize="@dimen/fouth_level_sp"  />   
+            </LinearLayout>
+            	  	 
+        	<LinearLayout
+       			android:layout_width="wrap_content"
+	   	 	    android:layout_height="match_parent"
+	   	 	    android:layout_gravity="center_horizontal"
+	   	 	    android:layout_weight="1"
+	   	 	    android:gravity="bottom|center_vertical|center_horizontal"
+	   	 	    android:orientation="vertical" > 
+
+		          <TextView
+	            		android:layout_width="wrap_content"
+	            		android:layout_height="wrap_content"
+	            		android:text="更多"
+	            		android:drawableTop="@drawable/selector_more"     		
+	            		
+	            		android:textSize="@dimen/fouth_level_sp" />   
+           </LinearLayout>
+   	</LinearLayout>
+
+</RelativeLayout>

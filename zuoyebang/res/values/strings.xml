@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">zuoyebang</string>
+    <string name="hello_world">Hello world!</string>
+    <dimen  name="first_level_sp">18sp</dimen>
+    <dimen  name="second_level_sp">18sp</dimen>
+    <dimen  name="third_level_sp">15sp</dimen>
+    <dimen  name="fouth_level_sp">12sp</dimen>
+    <dimen  name="divide_height_question_item">10dp</dimen>
+    <dimen  name="question_item_marge_left">20dp</dimen>
+    <string-array name="gradeString">
+        <item> 全部</item>
+        <item> 小学</item>
+ 		<item> 初一</item>
+        <item> 初二</item>   
+        <item> 初三</item>
+        <item> 高一</item>
+ 		<item> 高二</item>
+        <item> 高三</item>        
+    </string-array>
+   <array name="subjectString">
+        <item>@array/all</item>
+        <item>@array/primary</item>
+        <item>@array/middle1</item>
+        <item>@array/middle2</item>
+        <item>@array/middle3</item>
+        <item>@array/highscholl1</item>
+        <item>@array/highscholl2</item>
+        <item>@array/highscholl3</item>
+       
+    </array>
+    
+	<string-array name="all">
+	    <item>全部</item>
+	    <item>数学</item>
+	    <item>英语</item>
+	    <item>语文</item>
+		<item>物理</item>
+	    <item>化学</item>
+	    <item>生物</item>
+	    <item>政治</item>
+	    <item>历史</item>
+	    <item>地理</item>
+	    </string-array>
+	    
+	    <string-array name="primary">
+	    <item>数学</item>
+	    <item>英语</item>
+	    <item>语文</item>
+		</string-array>
+		
+	    <string-array name="middle1">
+	    <item>数学</item>
+	    <item>英语</item>
+	    <item>语文</item>
+	    <item>生物</item>
+	    <item>政治</item>
+	    <item>历史</item>
+	    <item>地理</item>
+		</string-array>
+		
+	     <string-array name="middle2">
+	    <item>数学</item>
+	    <item>英语</item>
+	    <item>语文</item>
+	    <item>生物</item>
+	    <item>政治</item>
+	    <item>历史</item>
+	    <item>地理</item>
+	    <item>物理</item>
+    
+		</string-array>
+		
+	    <string-array name="middle3">
+	    <item>数学</item>
+	    <item>英语</item>
+	    <item>语文</item>
+	    <item>生物</item>
+	    <item>政治</item>
+	    <item>历史</item>
+	    <item>地理</item>
+	    <item>物理</item>
+        <item>化学</item>
+		</string-array>
+		
+	    <string-array name="highscholl1">
+	    <item>数学</item>
+	    <item>英语</item>
+	    <item>语文</item>
+	    <item>生物</item>
+	    <item>政治</item>
+	    <item>历史</item>
+	    <item>地理</item>
+	    <item>物理</item>
+        <item>化学</item>
+		</string-array>
+		
+	     <string-array name="highscholl2">
+	    <item>数学</item>
+	    <item>英语</item>
+	    <item>语文</item>
+	    <item>生物</item>
+	    <item>政治</item>
+	    <item>历史</item>
+	    <item>地理</item>
+	    <item>物理</item>
+        <item>化学</item>
+		</string-array>
+		
+	     
+	     <string-array name="highscholl3">
+	    <item>数学</item>
+	    <item>英语</item>
+	    <item>语文</item>
+	    <item>生物</item>
+	    <item>政治</item>
+	    <item>历史</item>
+	    <item>地理</item>
+	    <item>物理</item>
+        <item>化学</item>
+		</string-array>
+</resources>
